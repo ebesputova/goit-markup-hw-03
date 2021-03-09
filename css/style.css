@@ -1,0 +1,294 @@
+:root {
+  --main-color: #757575;
+  --highlight-color: #212121;
+  --white-color: #fff;
+  --light-grey: #f5f4fa;
+  --accent-color: #2196f3;
+  --bg-dark: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--highlight-color);
+}
+
+.logo-white {
+  color: var(--white-color);
+}
+
+.logo .accent {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-list a {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--accent-color);
+}
+
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts a {
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+.section {
+  margin-bottom: 94px;
+}
+
+.high-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #212121;
+}
+
+.offer {
+  text-align: center;
+  background-color: var(--bg-dark);
+}
+
+.offer-title {
+  margin-bottom: 30px;
+  font-size: 44px;
+  font-weigth: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.offer button {
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.principles-list {
+  display: flex;
+  margin: -15px;
+}
+
+.principles-list .item {
+  margin: 15px;
+  width: calc((100% - 120px) / 4);
+}
+
+.principles-list .item-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.principles-list p {
+  line-height: 1.7;
+}
+
+.work-scope .images {
+  display: flex;
+  margin: -15px;
+}
+
+.work-scope .images img {
+  margin: 15px;
+}
+
+.work-team {
+  background-color: var(--light-grey);
+}
+
+.work-team p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  margin: -15px;
+}
+
+.team-list .item {
+  margin: 15px;
+  text-align: center;
+}
+.team-list .name {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--highlight-color);
+}
+
+.team-list .data {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  font-style: normal;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-info .address {
+  color: var(--white-color);
+}
+
+.projects {
+  text-align: center;
+}
+.projects .filters-wrapper {
+  margin-bottom: 50px;
+}
+
+.projects .filters {
+  margin: -4px;
+  text-align: center;
+  letter-spacing: -0.4em;
+}
+
+.projects .filters-elem {
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: var(--highlight-color);
+  font-weight: 500;
+  font-size: 16px;
+  background-color: var(--light-grey);
+}
+
+.projects .filters-elem:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.projects-list.wrapper {
+  margin: -15px;
+}
+
+.projects-list .item {
+  width: calc((100% - 90px) / 3);
+  margin: 15px;
+}
+
+.projects-list h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--highlight-color);
+}
+
+.projects-list p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--bg-dark);
+}
+
+footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
